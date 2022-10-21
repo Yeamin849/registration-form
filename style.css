@@ -1,0 +1,78 @@
+body{
+	background-image:url(images/pic.jpg);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.amader-form{
+	width:40%;
+	
+	background:rgba(0,0,0,.4);
+	margin:100px auto;
+	padding:20px;
+	border-radius:5px;
+}
+.amader-form input{
+	display:block;
+	width:100%;
+	font-size:20px;
+	padding:3px;
+	border:1px solid yellow;
+	background:transparent;
+	color:#fff;
+	border-radius:5px;
+}
+.amader-form label{
+	color:#fff;
+	font-size:20px;
+	padding:5px 0;
+	display:block;
+}
+.amader-form input[type=submit]{
+	width:200px;
+	margin:10px auto;
+	cursor:pointer;
+}
+.amader-form input[type=submit]:hover{
+	background-color: rgb(97, 141, 8);
+	
+}
+.amader-form p{
+	color:#fff;
+	font-size:18px;
+}
+.amader-form p a{
+	color:yellow;
+}
+					/* responsive part start from hear*/
+
+@media screen and (min-width : 300px) and (max-width : 500px) {
+
+	.amader-form{
+		width: 60%;
+		
+	}
+	.amader-form input[type=submit]{
+		width:100px;
+	}
+	.amader-form input{
+	
+		width:100%;
+		font-size:15px;
+		padding:3px;
+		border:1px solid yellow;
+		background:transparent;
+		color:#fff;
+		border-radius:5px;
+	}
+	.amader-form label{
+		color:#fff;
+		font-size:15px;
+		padding:5px 0;
+		display:block;
+	}
+	.amader-form p{
+		color:#fff;
+		font-size:12px;
+	}
+}
